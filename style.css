@@ -1,0 +1,192 @@
+*{
+    font-family: 'Jockey One';
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #151C21;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+    margin: 0 20px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.section{
+    margin: 0 60px;
+}
+
+.navbar{
+    background-color: #243a4b;
+    margin: 40px 0;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.logo{
+    align-self: center;
+    margin-right: 40px;
+    padding-left: 20px;
+}
+.left, .links ul{
+    display: flex;
+}
+li{
+    margin-right: 20px;
+}
+.right{
+    margin:5px 15px;
+    padding: 5px;
+    width: auto;
+    height: 40px;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+.searsh_btn{
+    background-color: transparent;
+    border: none;
+}
+.search_bar img{
+    width: 18px;
+    cursor: pointer;
+}
+.right input{
+    background-color: #243a4b;
+    margin:0 10px;
+    border: none;
+    font-size: 16px;
+    color: lightgray;
+}
+input:focus{
+    outline: none;
+}
+input::placeholder {
+    color: lightgray; 
+}
+
+/*HOME PAGE*/
+.home_page{
+    margin: 0 150px;
+    margin-bottom: 50px;
+}
+.home_desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home_desc h1{
+    font-family: 'Aclonica', Courier, monospace;
+    font-size: 50px;
+    
+}
+p{
+    width: 550px;
+    margin-bottom: 50px;
+}
+.home_img img{
+    max-width: 150px;
+}
+.home_btns button{
+    margin-right: 30px;
+    padding: 10px 25px;
+    color: #fff;
+    border-radius: 25px;
+}
+.home_btns .btn_2, .home_btns .btn_1{
+    cursor: pointer;
+}
+.home_btns .btn_1{
+    border: none;
+    background-color: #00B7F1;
+}
+.home_btns .btn_2{
+    border: 1px solid #fff;
+    background: transparent;
+}
+.btn_2:hover,.btn_1:hover{
+    box-shadow: 0 0 10px #00B7F1;
+    transition: .5s;
+    letter-spacing: 0.1rem;
+} 
+
+/*TESTIMONY*/
+.testimony{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h2{
+    font-weight: 100;
+}
+.satrs{
+    padding: 5px 15px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.star_icon{
+    color: #151C21;
+    font-size: 20px;
+}
+.items{
+    display: flex;
+    overflow: hidden;
+}
+.item{
+    background-color: #243a4b;
+    width: 350px;
+    height: 180px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+}
+.item .profil{
+    display: flex;
+    align-items: center;
+}
+.profil img{
+    width: 60px;
+    margin-right: 20px;
+}
+.info p{
+    margin: 0;
+    letter-spacing: 1px;
+}
+.since p{
+    letter-spacing: 1.5px;
+    color: rgb(131, 149, 167);
+}
+
+.section1{
+    margin: 50px 150px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.section1_img{
+    width: 200px;
+    margin-left: 50px;
+}
+.section1_btn{
+    margin-right: 30px;
+    padding: 10px 25px;
+    color: #fff;
+    background: #00B7F1;
+    border: none;
+    border-radius: 25px;
+}
+
